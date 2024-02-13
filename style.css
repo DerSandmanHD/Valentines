@@ -259,6 +259,34 @@ body {
   cursor: pointer;
 }
 
+.reset button.reset-button {
+  font-weight: 600;
+  font-style: normal;
+  transition: all 0.1s linear;
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: solid 2px #5c5b5b; /* Schwarze Farbe für den Rand */
+  border-radius: 4px; /* Behält die abgerundeten Ecken bei */
+  color: #5c5b5b; /* Schwarze Textfarbe */
+  display: inline-block;
+  font-size: 10px; /* Ändere die Schriftgröße des Symbols */
+  text-transform: uppercase;
+  margin: 5px;
+  padding: 10.5px;
+  line-height: 0.9em;
+  text-decoration: none;
+  min-width: 120px;
+  cursor: pointer;
+}
+
+.reset button.reset-button .reset-symbol {
+  font-size: 22px; /* Ändere die Schriftgröße des Symbols separat */
+  position: relative; /* Positionierung relativ zum Button */
+  top: 3px; /* Verschiebe das Symbol um 2px nach unten */
+}
+
+
+
 .reset button:hover {
   background-color: #fc9d9d;
   color: #a10000;
