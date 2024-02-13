@@ -1,3 +1,9 @@
+@media only screen and (max-width: 600px) {
+  #valentines-heading {
+    font-size: 24px; /* Kleiner Schriftgröße für Mobilgeräte */
+  }
+}
+
 #envelope {
   margin: 150px;
   position: relative;
@@ -256,4 +262,26 @@ body {
 .reset button:hover {
   background-color: #fc9d9d;
   color: #a10000;
+}
+
+#valentines-heading {
+  display: none; /* Startet unsichtbar */
+  text-align: center;
+  color: white;
+  font-size: 36px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10; /* Über dem Brief, um sichtbar zu sein */
+  animation: fade-in 2s ease forwards; /* Fügt die Fade-In-Animation hinzu */
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0; /* Beginnt mit 0% Opazität */
+  }
+  to {
+    opacity: 1; /* Endet mit 100% Opazität */
+  }
 }
