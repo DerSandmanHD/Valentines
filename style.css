@@ -265,9 +265,9 @@ body {
   transition: all 0.1s linear;
   -webkit-appearance: none;
   background-color: transparent;
-  border: solid 2px #ff5756; /* Schwarze Farbe für den Rand */
+  border: solid 2px #ff5757; /* Schwarze Farbe für den Rand */
   border-radius: 4px; /* Behält die abgerundeten Ecken bei */
-  color: #ff5756; /* Schwarze Textfarbe */
+  color: #ff5757; /* Schwarze Textfarbe */
   display: inline-block;
   font-size: 10px; /* Ändere die Schriftgröße des Symbols*/
   text-transform: uppercase;
