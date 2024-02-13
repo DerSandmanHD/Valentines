@@ -269,7 +269,7 @@ body {
   border-radius: 4px; /* Behält die abgerundeten Ecken bei */
   color: #ff5757; /* Schwarze Textfarbe */
   display: inline-block;
-  font-size: 10px; /* Ändere die Schriftgröße des Symbols */
+  font-size: 10px; /* Ändere die Schriftgröße des Symbols*/
   text-transform: uppercase;
   margin: 5px;
   padding: 10.5px;
